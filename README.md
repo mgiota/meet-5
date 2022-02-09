@@ -3,53 +3,62 @@
 FEATURE 2: SHOW/HIDE AN EVENT'S DETAILS
 As a user
 I should be able to select on an event and expand or collapse that event
-So that I can see the details of that specific event
-•	Scenario 1: An event element is collapsed by default
-o	Given a user was on the main page 
-o	When nothing is clicked/selected
-o	Then the event details will be collapsed by default
-•	Scenario 2: User can expand an event to see its details
-o	Given a user was on the events page and wanted to see its details
-o	When the expand option is selected
-o	Then the user will see the details of the event
-•	Scenario 3: User can collapse an event to hide its details
-o	Given a user was viewing the events details and wanted to hide its details
-o	When the user clicks on button the close the expanded event
-o	Then the event will collapse to hide its details
+So that I can see the details of that specific event.
+
+Scenario 1: An event element is collapsed by default
+Given a user was on the main page
+When nothing is clicked/selected
+Then the event details will be collapsed by default
+
+Scenario 2: User can expand an event to see its details
+Given a user was on the events page and wanted to see its details
+When the expand option is selected
+Then the user will see the details of the event
+
+Scenario 3: User can collapse an event to hide its details
+Given a user was viewing the events details and wanted to hide its details
+When the user clicks on button the close the expanded event
+Then the event will collapse to hide its details
+
 FEATURE 3: SPECIFY NUMBER OF EVENTS
 As a user,
 I should be able to specify the number of events
 So that I can manage the number of events shown for my convenience
-•	Scenario 1: When user hasn’t specified a number, 32 is the default number
-o	Given the user has not decided how many events to see
-o	When the user opens the main page
-o	Then by default the user will see 32 events
-•	Scenario 2: User can change the number of events they want to see
-o	Given the user wanted to see a specific number of events
-o	When the click the option to choose the number of events shown
-o	Then the user can change the number of events they want to see 
+
+Scenario 1: When user hasn’t specified a number, 32 is the default number
+Given the user has not decided how many events to see
+When the user opens the main page
+Then by default the user will see 32 events
+
+Scenario 2: User can change the number of events they want to see
+Given the user wanted to see a specific number of events
+When the click the option to choose the number of events shown
+Then the user can change the number of events they want to see
 
 FEATURE 4: USE THE APP WHEN OFFLINE
 As a user,
 I should be able to use the app when I am offline
 So that get the information and details of events without requiring an internet connection
-•	Scenario 1: Show cached data when there’s no internet connection
-o	Given the user wanted to use/see the app but did not have an internet connection
-o	When the user opens the app (with cached data)
-o	Then the user will be able to see the cached data
-•	Scenario 2: Show error when user changes the settings (city, time range)
-o	Given the user was offline
-o	When the user tries to change the settings (city, time range, etc.)
-o	Then an error message will appear
+
+Scenario 1: Show cached data when there’s no internet connection
+Given the user wanted to use/see the app but did not have an internet connection
+When the user opens the app (with cached data)
+Then the user will be able to see the cached data
+
+Scenario 2: Show error when user changes the settings (city, time range)
+Given the user was offline
+When the user tries to change the settings (city, time range, etc.)
+Then an error message will appear
 
 FEATURE 5: DATA VISUALIZATION
 As a user, 
 I should be able to visualise the upcoming events as chart
 So that I can better see the number of upcoming events in each city.
-•	Scenario 1: Show a chart with the number of upcoming events in each city
-o	Given the user was on the main page
-o	When the user wants to view upcoming events in each city
-o	Then they will see a chart with the number of events 
+
+Scenario 1: Show a chart with the number of upcoming events in each city
+Given the user was on the main page
+When the user wants to view upcoming events in each city
+Then they will see a chart with the number of events 
 
 
 INFORMATION ON THE PROJECT
