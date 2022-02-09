@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/ciarasnijders/Meet/static/css/main.073c9b0a.css",
-    "main.js": "/ciarasnijders/Meet/static/js/main.5bc5c1ed.js",
+    "main.js": "/ciarasnijders/Meet/static/js/main.dad64d3c.js",
     "static/js/377.dda790c9.chunk.js": "/ciarasnijders/Meet/static/js/377.dda790c9.chunk.js",
     "service-worker.js": "/ciarasnijders/Meet/service-worker.js",
     "static/media/logo.svg": "/ciarasnijders/Meet/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
     "index.html": "/ciarasnijders/Meet/index.html",
     "main.073c9b0a.css.map": "/ciarasnijders/Meet/static/css/main.073c9b0a.css.map",
-    "main.5bc5c1ed.js.map": "/ciarasnijders/Meet/static/js/main.5bc5c1ed.js.map",
+    "main.dad64d3c.js.map": "/ciarasnijders/Meet/static/js/main.dad64d3c.js.map",
     "377.dda790c9.chunk.js.map": "/ciarasnijders/Meet/static/js/377.dda790c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.5bc5c1ed.js"
+    "static/js/main.dad64d3c.js"
   ]
 }
