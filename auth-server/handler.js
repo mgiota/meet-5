@@ -1,5 +1,4 @@
 const { google } = require("googleapis");
-const { responsesAreSame } = require("workbox-broadcast-update");
 const OAuth2 = google.auth.OAuth2;
 const calendar = google.calendar("v3");
 
@@ -14,8 +13,8 @@ const credentials = {
     auth_uri: "https://accounts.google.com/o/oauth2/auth",
     token_uri: "https://oauth2.googleapis.com/token",
     auth_provider_x509_cert_url: "https://www.googleapis.com/oauth2/v1/certs",
-    redirect_uris: ["https://ciarasnijders.github.io/meet/"],
-    javascript_origins: ["https://ciarasnijders.github.io", "http://localhost:3000"],
+    redirect_uris: ["https://mgiota.github.io/meet-5/"],
+    javascript_origins: ["https://mgiota.github.io", "http://localhost:3000"],
 };
 const { client_secret, client_id, redirect_uris, calendar_id } = credentials;
   const oAuth2Client = new google.auth.OAuth2(
