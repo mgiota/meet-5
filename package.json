@@ -2,7 +2,7 @@
   "name": "meet",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mgiota.github.io/meet-5/", 
+  "homepage": "https://mgiota.github.io/meet-5/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^11.2.7",
@@ -52,5 +52,4 @@
   "devDependencies": {
     "gh-pages": "^3.2.3"
   }
-
 }

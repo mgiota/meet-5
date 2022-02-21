@@ -11,19 +11,19 @@ provider:
         PROJECT_ID: ${file(config.json):PROJECT_ID}
         CALENDAR_ID: ${file(config.json):CALENDAR_ID}
 functions:
-    getAuthURL:
+    getAuthURLCiara:
         handler: handler.getAuthURL
         events:
             - http:
                 path: api/get-auth-url
                 method: get
-    getAccessToken:
+    getAccessTokenCiara:
         handler: handler.getAccessToken
         events:
             - http:
                 path: api/token/{code}
                 method: get
-    getCalendarEvents:
+    getCalendarEventsCiara:
         handler: handler.getCalendarEvents
         events: 
             - http: 
